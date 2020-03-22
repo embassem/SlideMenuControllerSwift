@@ -21,14 +21,15 @@ iOS Slide View based on iQON, Feedly, Google+, Ameba iPhone app.
 
 #### CocoaPods
 ```
-pod 'SlideMenuControllerSwift'
+pod 'SlideMenuControllerSwift', :git => 'https://github.com/embassem/SlideMenuControllerSwift.git'
+
 ```
 
 #### Carthage
 
 if iOS8 or later, Carthage is supported
 
-* Add `github "dekatotoro/SlideMenuControllerSwift"` to your Cartfile.
+* Add `github "embassem/SlideMenuControllerSwift"` to your Cartfile.
 * Run `carthage update`.
 
 for more info, see [Carthage](https://github.com/carthage/carthage)
