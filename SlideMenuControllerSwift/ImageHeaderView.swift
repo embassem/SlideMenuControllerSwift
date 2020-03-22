@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ImageHeaderView : UIView {
-    
-    @IBOutlet weak var profileImage : UIImageView!
-    @IBOutlet weak var backgroundImage : UIImageView!
-    
+class ImageHeaderView: UIView {
+
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var backgroundImage: UIImageView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         self.backgroundColor = UIColor(hex: "E0E0E0")

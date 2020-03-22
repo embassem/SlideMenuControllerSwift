@@ -9,7 +9,7 @@
 import UIKit
 
 class GoViewController: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

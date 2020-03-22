@@ -8,8 +8,8 @@
 
 import UIKit
 
-class SubContentsViewController : UIViewController {
-    
+class SubContentsViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

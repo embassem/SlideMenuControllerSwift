@@ -8,20 +8,20 @@
 
 import UIKit
 
-class ExSlideMenuController : SlideMenuController {
+class ExSlideMenuController: SlideMenuController {
 
     override func isTagetViewController() -> Bool {
         if let vc = UIApplication.topViewController() {
             if vc is MainViewController ||
-            vc is SwiftViewController ||
-            vc is JavaViewController ||
-            vc is GoViewController {
+                vc is SwiftViewController ||
+                vc is JavaViewController ||
+                vc is GoViewController {
                 return true
             }
         }
         return false
     }
-    
+
     override func track(_ trackAction: TrackAction) {
         switch trackAction {
         case .leftTapOpen:
@@ -40,6 +40,6 @@ class ExSlideMenuController : SlideMenuController {
             print("TrackAction: right flick open.")
         case .rightFlickClose:
             print("TrackAction: right flick close.")
-        }   
+        }
     }
 }
